@@ -1,0 +1,12 @@
+C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Shared\bin\Debug\net5.0\BlazorBlog.Shared.deps.json
+C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Shared\bin\Debug\net5.0\BlazorBlog.Shared.dll
+C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Shared\bin\Debug\net5.0\ref\BlazorBlog.Shared.dll
+C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Shared\bin\Debug\net5.0\BlazorBlog.Shared.pdb
+C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Shared\obj\Debug\net5.0\BlazorBlog.Shared.csproj.AssemblyReference.cache
+C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Shared\obj\Debug\net5.0\BlazorBlog.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Shared\obj\Debug\net5.0\BlazorBlog.Shared.AssemblyInfoInputs.cache
+C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Shared\obj\Debug\net5.0\BlazorBlog.Shared.AssemblyInfo.cs
+C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Shared\obj\Debug\net5.0\BlazorBlog.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Shared\obj\Debug\net5.0\BlazorBlog.Shared.dll
+C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Shared\obj\Debug\net5.0\ref\BlazorBlog.Shared.dll
+C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Shared\obj\Debug\net5.0\BlazorBlog.Shared.pdb
