@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kien Dang\\source\\repos\\BlazorBlog\\BlazorBlog\\server\\BlazorBlog.Server.csproj": {}
+    "C:\\Users\\Kien Dang\\source\\repos\\BlazorBlog\\BlazorBlog\\Server\\BlazorBlog.Server.csproj": {}
   },
   "projects": {
     "C:\\Users\\Kien Dang\\source\\repos\\BlazorBlog\\BlazorBlog\\Client\\BlazorBlog.Client.csproj": {
@@ -91,14 +91,14 @@
         }
       }
     },
-    "C:\\Users\\Kien Dang\\source\\repos\\BlazorBlog\\BlazorBlog\\server\\BlazorBlog.Server.csproj": {
+    "C:\\Users\\Kien Dang\\source\\repos\\BlazorBlog\\BlazorBlog\\Server\\BlazorBlog.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kien Dang\\source\\repos\\BlazorBlog\\BlazorBlog\\server\\BlazorBlog.Server.csproj",
+        "projectUniqueName": "C:\\Users\\Kien Dang\\source\\repos\\BlazorBlog\\BlazorBlog\\Server\\BlazorBlog.Server.csproj",
         "projectName": "BlazorBlog.Server",
-        "projectPath": "C:\\Users\\Kien Dang\\source\\repos\\BlazorBlog\\BlazorBlog\\server\\BlazorBlog.Server.csproj",
+        "projectPath": "C:\\Users\\Kien Dang\\source\\repos\\BlazorBlog\\BlazorBlog\\Server\\BlazorBlog.Server.csproj",
         "packagesPath": "C:\\Users\\Kien Dang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kien Dang\\source\\repos\\BlazorBlog\\BlazorBlog\\server\\obj\\",
+        "outputPath": "C:\\Users\\Kien Dang\\source\\repos\\BlazorBlog\\BlazorBlog\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
