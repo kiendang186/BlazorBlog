@@ -82,14 +82,8 @@ using BlazorBlog.Client.Shared;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 1 "C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Client\Pages\BlogPosts.razor"
-using BlazorBlog.Shared;
-
-#line default
-#line hidden
-#nullable disable
-    public partial class BlogPosts : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/posts/{url}")]
+    public partial class Posts : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -97,14 +91,17 @@ using BlazorBlog.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 18 "C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Client\Pages\BlogPosts.razor"
+#line 6 "C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Client\Pages\Posts.razor"
        
+    
+    public BlazorBlog.Shared.BlogPost Post;
 
-    public List<BlogPost> Posts = new List<BlogPost>();
+    [Parameter]
+    public string Url { get; set; }
 
     protected override void OnInitialized()
     {
-        Posts = BlogService.GetPosts();
+        Post = BlogService.GetPostByUrl(Url);
     }
 
 #line default

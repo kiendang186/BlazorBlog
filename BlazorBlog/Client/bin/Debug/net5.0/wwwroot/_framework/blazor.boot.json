@@ -195,13 +195,13 @@
       "mscorlib.dll": "sha256-0qsbc1acYr3S6P7t9gSYyghOhMVs3CTJ9ukQ1VXqksY=",
       "netstandard.dll": "sha256-4Ejn1oHpeqmTQlJx7Kjuipn0ZVOoG0hGncN+9qyL1lo=",
       "System.Private.CoreLib.dll": "sha256-7n\/jioZu+\/2tD7v1RgjTTrBrviX+kVwPFGJ\/JBsHQGA=",
-      "BlazorBlog.Shared.dll": "sha256-1d3FtDzWo4+ZQZlacngr\/gvVmWQyIsOr+CrVjPJ4PYE=",
-      "BlazorBlog.Client.dll": "sha256-liYDT33oPEAfTegSICyc4ssvSKxA\/cVGYvU8M9kKv\/E="
+      "BlazorBlog.Shared.dll": "sha256-YBlV0OQRRMiJSx+1MAMCM4n5kntxWivzsugR1Ffb4Yk=",
+      "BlazorBlog.Client.dll": "sha256-ddtO+U6+QUXoLSRPfxVcn1CqJdHP5LZa\/iWcW5+mtBk="
     },
     "lazyAssembly": null,
     "pdb": {
-      "BlazorBlog.Shared.pdb": "sha256-t9yMBpqfXSczAvz+0BJIGGqkOho1\/N4p2BhgOcmWojo=",
-      "BlazorBlog.Client.pdb": "sha256-OMPLIGbaaDOZl0hiO9ItehK1RuZwBviqoW4KNT6\/6gc="
+      "BlazorBlog.Shared.pdb": "sha256-1ykz1Yenlri\/L1GiQefVViGtTht3oXnIRKfjV4USJb8=",
+      "BlazorBlog.Client.pdb": "sha256-bExBOSsVxxSe71Wi6HYs73ejXt7tt6rKTDDOhEF2aW0="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-Uv0JiOiPEvlGxygIhcdY8XYm\/Nt+zgVckKrqB2uih0w=",

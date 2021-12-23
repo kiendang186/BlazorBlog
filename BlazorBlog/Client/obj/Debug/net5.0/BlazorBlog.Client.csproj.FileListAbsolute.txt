@@ -636,3 +636,5 @@ C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Client\obj\Debug\net5.0\re
 C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Client\obj\Debug\net5.0\BlazorBlog.Client.pdb
 C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Client\obj\Debug\net5.0\RazorDeclaration\Pages\BlogPosts.razor.g.cs
 C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Client\obj\Debug\net5.0\Razor\Pages\BlogPosts.razor.g.cs
+C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Posts.razor.g.cs
+C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Client\obj\Debug\net5.0\Razor\Pages\Posts.razor.g.cs
