@@ -100,11 +100,11 @@ using BlazorBlog.Shared;
 #line 18 "C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Client\Pages\BlogPosts.razor"
        
 
-    public List<BlogPost> Posts = new List<BlogPost>();
+    private List<BlogPost> Posts = new List<BlogPost>();
 
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
-        Posts = BlogService.GetPosts();
+        Posts = await BlogService.GetPosts();
     }
 
 #line default

@@ -2,26 +2,44 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
+using System.Net.Http.Json;
 using System.Threading.Tasks;
 
 namespace BlazorBlog.Client.Services
 {
     public class BlogPostService : IBlogPostService
     {
-        public List<BlogPost> Posts { get; set; } = new List<BlogPost>()
-        {
-            new BlogPost() { Url = "new-tutorial", Title = "A New Tutorial about Blazor", Description = "This is a new tutorial, showing you how to buid a blog with Blazor", Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." },
-            new BlogPost() { Url="first-post", Title = "My First Blog Post", Description="Hi!This is my new shiny blog. Enjoy!", Content = "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
-        };
+        private readonly HttpClient _http;
 
-        public BlogPost GetPostByUrl(string url)
+        public BlogPostService(HttpClient http)
         {
-            return Posts.FirstOrDefault(p => p.Url.ToLower().Equals(url));
+            _http = http;
         }
 
-        public List<BlogPost> GetPosts()
+        public async Task<BlogPost> GetPostByUrl(string url)
         {
-            return Posts;
+            var post = await _http.GetAsync($"api/Blog/{url}");
+            if(post.StatusCode != System.Net.HttpStatusCode.OK)
+            {
+                var message = await post.Content.ReadAsStringAsync();
+                return new BlogPost() { Title = message.ToString() };
+            }
+            else
+            {
+                return await post.Content.ReadFromJsonAsync<BlogPost>();
+            }           
+        }
+
+        public async Task<List<BlogPost>> GetPosts()
+        {
+            return await _http.GetFromJsonAsync<List<BlogPost>>("api/Blog");
+        }
+
+        public async Task<BlogPost> CreateBlogPost(BlogPost request)
+        {
+            var result = await _http.PostAsJsonAsync<BlogPost>($"api/Blog", request);
+            return await result.Content.ReadFromJsonAsync<BlogPost>();
         }
     }
 }

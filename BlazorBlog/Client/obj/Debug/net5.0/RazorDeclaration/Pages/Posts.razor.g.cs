@@ -91,17 +91,17 @@ using BlazorBlog.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 6 "C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Client\Pages\Posts.razor"
+#line 13 "C:\Users\Kien Dang\source\repos\BlazorBlog\BlazorBlog\Client\Pages\Posts.razor"
        
-    
+
     public BlazorBlog.Shared.BlogPost Post;
 
     [Parameter]
     public string Url { get; set; }
 
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
-        Post = BlogService.GetPostByUrl(Url);
+        Post = await BlogService.GetPostByUrl(Url);
     }
 
 #line default
